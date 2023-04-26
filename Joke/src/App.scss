@@ -1,0 +1,89 @@
+.app {
+    .header {
+        display: flex;
+        justify-content: center;
+        .headercontent {
+            width: 60%;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    .middlebanner {
+        color: white;
+        background-color: rgb(106, 184, 106);
+        text-align: center;
+        padding: 30px 0;
+        h2 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 9px;
+        }
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        .centercontent {
+            padding: 20px 0;
+            width: 60%;
+            color: rgb(131, 130, 130);
+            font-size: 12px;
+            p {
+                margin-bottom: 28px;
+            }
+            hr {
+                border: 0.1px solid lightgray;
+            }
+        }
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        .funnybutton {
+            border-radius: 5px;
+            padding: 6px 40px;
+            border: none;
+            color: white;
+            font-size: 12px;
+            background-color: rgb(106, 106, 238);
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .funnybutton:hover{
+            box-shadow: 0 0 10px 0px rgb(106, 106, 238);
+        }
+
+        .notfunnybutton {
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(106, 184, 106);
+            padding: 6px 40px;
+            color: white;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .notfunnybutton:hover{
+            box-shadow: 0 0 10px 0px rgb(106, 184, 106);
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        border-top: 0.5px solid lightgray;
+        border-bottom: 0.5px solid lightgray;
+        margin-top: 50px;
+        .footercontent {
+            width: 60%;
+            color: rgb(131, 130, 130);
+            font-size: 9px;
+            padding: 8px 0;
+            text-align: center;
+            line-height: 14px;
+        }
+    }
+}
